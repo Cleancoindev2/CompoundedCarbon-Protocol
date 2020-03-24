@@ -1,4 +1,4 @@
-{A FCC DAO/LLC fork of Compound protocol v2}
+
 CompoundedCarbon Protocol v0.1 alpha
 =================
 
@@ -178,4 +178,5 @@ Discussion
 
 For any concerns with the protocol, visit us on [Discord](https://compound.finance/discord) to discuss.
 
+{A FCC DAO/LLC fork of Compound protocol v2}
 _© Copyright 2020, FCC LLC, Inc._
