@@ -94,7 +94,7 @@ You can also specify a network (rinkeby, ropsten, kovan, goerli or mainnet):
 REPL
 ----
 
-The Compound Protocol has a simple scenario evaluation tool to test and evaluate scenarios which could occur on the blockchain. This is primarily used for constructing high-level integration tests. The tool also has a REPL to interact with local the Compound Protocol (similar to `truffle console`).
+The CompoundedCarbon Protocol has a simple scenario evaluation tool to test and evaluate scenarios which could occur on the blockchain. This is primarily used for constructing high-level integration tests. The tool also has a REPL to interact with local the CompoundedCarbon Protocol (similar to `truffle console`).
 
     yarn run repl
 
@@ -141,7 +141,7 @@ There are additional tests under the [spec/scenario](https://github.com/compound
 Formal Verification Specs
 -------------------------
 
-The Compound Protocol has a number of formal verification specifications, powered by [Certora](https://www.certora.com/). You can find details in the [spec/formal](https://github.com/compound-finance/compound-protocol/tree/master/spec/formal) folder. The Certora Verification Language (CVL) files included are specifications, which when with the Certora CLI tool, produce formal proofs (or counter-examples) that the code of a given contract exactly matches that specification.
+The CompoundedCarbon Protocol has a number of formal verification specifications, powered by [Certora](https://www.certora.com/). You can find details in the [spec/formal](https://github.com/compound-finance/compound-protocol/tree/master/spec/formal) folder. The Certora Verification Language (CVL) files included are specifications, which when with the Certora CLI tool, produce formal proofs (or counter-examples) that the code of a given contract exactly matches that specification.
 
 Code Coverage
 -------------
@@ -181,4 +181,4 @@ Discussion
 
 For any concerns with the protocol, visit us on [Discord](https://compound.finance/discord) to discuss.
 
-_© Copyright 2019, Compound Labs, Inc._
+_© Copyright 2020, FCC LLC, Inc._
