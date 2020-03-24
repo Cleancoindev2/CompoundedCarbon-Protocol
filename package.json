@@ -1,7 +1,7 @@
 {
-  "name": "compound-protocol",
-  "version": "0.2.1",
-  "description": "The Compound Protocol",
+  "name": "compoundedcarbon-protocol",
+  "version": "0.1",
+  "description": "The CompoundedCarbon Protocol",
   "main": "index.js",
   "scripts": {
     "chain": "./script/ganache",
@@ -15,8 +15,8 @@
     "scenario": "./script/scenario",
     "test": "./script/test"
   },
-  "repository": "git@github.com:compound-finance/compound-protocol.git",
-  "author": "Compound Finance",
+  "repository": "git@github.com:cleancoindev/CompoundedCarbon-Protocol.git",
+  "author": "FCC DAO/LLC",
   "license": "UNLICENSED",
   "devDependencies": {
     "bignumber.js": "8.0.1",
