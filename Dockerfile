@@ -8,21 +8,21 @@ RUN yarn global add typescript
 RUN wget https://github.com/ethereum/solidity/releases/download/v0.5.8/solc-static-linux -O /usr/local/bin/solc && \
 	chmod +x /usr/local/bin/solc
 
-RUN mkdir -p /deploy/compound-protocol/scenario
+RUN mkdir -p /deploy/CompoundedCarbon-Protocol/scenario
 WORKDIR /deploy/compound-protocol
 
 # First add deps
-ADD ./package.json /deploy/compound-protocol/
-ADD ./yarn.lock /deploy/compound-protocol/
+ADD ./package.json /deploy/CompoundedCarbon-Protocol/
+ADD ./yarn.lock /deploy/CompoundedCarbon-Protocol/
 RUN yarn install
-ADD scenario/package.json /deploy/compound-protocol/scenario
-ADD scenario/yarn.lock /deploy/compound-protocol/scenario
-RUN ls -la /deploy/compound-protocol
-RUN ls -la /deploy/compound-protocol/scenario
-RUN cd /deploy/compound-protocol/scenario && yarn install
+ADD scenario/package.json /deploy/CompoundedCarbon-Protocol/scenario
+ADD scenario/yarn.lock /deploy/CompoundedCarbon-Protocol/scenario
+RUN ls -la /deploy/CompoundedCarbon-Protocol
+RUN ls -la /deploy/CompoundedCarbon-Protocol/scenario
+RUN cd /deploy/CompoundedCarbon-Protocol/scenario && yarn install
 
 # Then rest of code and build
-ADD . /deploy/compound-protocol
+ADD . /deploy/CompoundedCarbon-Protocol
 
 RUN truffle compile
 
